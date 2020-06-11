@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4656bc</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Album">#212121</color>
+    <color name="Tlo">#cecece</color>
+    <color name="Tytul">#130e0e</color>
+    <color name="Tlo_album">#7986cb</color>
+</resources>

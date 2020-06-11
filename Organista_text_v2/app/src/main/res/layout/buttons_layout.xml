@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:stretchColumns="*">
+
+            <ImageButton
+                android:id="@+id/minus"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_blue_dark"/>
+
+            <ImageButton
+                android:id="@+id/connect"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#cc001f"
+                android:src="@drawable/icons8_cellular_network_48" />
+
+            <ImageButton
+                android:id="@+id/refresh"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_blue_dark"/>
+
+            <ImageButton
+                android:id="@+id/volbal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_blue_light" />
+
+            <ImageButton
+                android:id="@+id/stop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_blue_dark"
+                android:focusable="auto"
+                android:soundEffectsEnabled="true"
+                tools:soundEffectsEnabled="true" />
+
+            <ImageButton
+                android:id="@+id/stopnow"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_blue_light"
+                android:src="@drawable/icons8_stop_48" />
+
+            <ImageButton
+                android:id="@+id/plus"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_blue_dark"/>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
